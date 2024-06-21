@@ -174,25 +174,21 @@
               <a href="https://github.com/FSoft-AI4Code/RepoExec"
                 >RepoExec</a
               >
-              version 0.1.0;
             </li>
             <li>
-              Models are ranked according to (calibrated) Pass@1 using greedy decoding.
+              Models are ranked according to Pass@1 using greedy decoding.
               >.
             </li>
-            <li>
+            <!-- <li>
               <i>Complete</i> vs <i>Instruct</i>:
                   <br />
                   <i><strong><u>Complete</u></strong></i>: Code Completion based on the (verbose) structured docstring. This variant tests if the models are good at coding.
                   <br />
                   <strong><i><u>Instruct</u></i> (🔥Vibe Check🔥)</strong>: Code Generation based on the (less verbose) NL-oriented instructions. This variant tests if the models are really capable enough to understand human intents to code.
-            </li>
-            <li>
-              Wonder the relative performance among models, or the current progress of task solve rate? Check out the <u><a href="https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard">🤗 Hugging Face Leaderboard</a></u>!
-            </li> 
-            <li>
+            </li> -->
+            <!-- <li>
               💤 indicates the models having at least a difference of 1% between the calibrated Pass@1 and the original one. What does this imply? Instruction-tuned models <u><a href="https://community.openai.com/t/why-i-think-gpt-is-now-lazy">can be lazy</a></u>, omitting essential code parts and thus failing on some tasks.
-              Therefore, we add the missing parts during evaluation, and report the calibrated Pass@1 score as default, 
+              Therefore, we add the missing parts during evaluation, and report the calibrated Pass@1 score as default,  -->
             <li>
               ✨ marks models evaluated using a chat setting, while others
               perform direct code completion. We note that some instruction-tuned models miss the chat template in their tokenizer configuration.
