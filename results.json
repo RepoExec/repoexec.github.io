@@ -1,13 +1,13 @@
 {
-    "StarCoder2-3B": {
-        "link": "https://huggingface.co/bigcode/starcoder2-3b",
+    "To be updated": {
+        "link": "",
         "open-data": "Full",
         "pass@1": {
             "instruct": null,
-            "complete": 21.4
+            "complete": 0.0
         },
         "prompted": false,
-        "size": 3,
+        "size": 0,
         "direct_complete": true,
         "lazy": false,
         "elo_mle": 731
