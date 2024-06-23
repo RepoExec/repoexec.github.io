@@ -63,5 +63,18 @@
         "direct_complete": true,
         "lazy": false,
         "elo_mle": 960
+    },
+    "To be updated": {
+        "link": "",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 0
+        },
+        "prompted": false,
+        "size": 15,
+        "direct_complete": true,
+        "lazy": false,
+        "elo_mle": 960
     }
 }
