@@ -103,6 +103,19 @@
         "lazy": false,
         "elo_mle": 978
     },
+    "OpenCodeInterpreter-DS-33B": {
+        "link": "https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-33B",
+        "open-data": "Partial",
+        "pass@1": {
+            "instruct": null,
+            "complete": 31.0
+        },
+        "prompted": true,
+        "size": 33,
+        "direct_complete": true,
+        "lazy": false,
+        "elo_mle": 1131
+    },
     "To be updated": {
         "link": "",
         "open-data": "None",
