@@ -77,6 +77,32 @@
         "lazy": false,
         "elo_mle": 1002
     },
+    "DeepSeek-Coder-33B-Instruct": {
+        "link": "https://huggingface.co/deepseek-ai/deepseek-coder-33b-instruct",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 33.5
+        },
+        "prompted": true,
+        "size": 33,
+        "direct_complete": false,
+        "lazy": false,
+        "elo_mle": 1129
+    },
+    "Yi-1.5-34B": {
+        "link": "https://huggingface.co/01-ai/Yi-1.5-34B",
+        "open-data": "None",
+        "pass@1": {
+            "instruct": null,
+            "complete": 34.9
+        },
+        "prompted": false,
+        "size": 34,
+        "direct_complete": true,
+        "lazy": false,
+        "elo_mle": 978
+    },
     "To be updated": {
         "link": "",
         "open-data": "None",
